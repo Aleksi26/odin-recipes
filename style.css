@@ -1,10 +1,14 @@
+
 h1, h2, h3 {
+    display: inline-block;
     font-size: 50px;
     text-align: center;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
-
+    margin: 10px auto;
+    background-color: rgb(192, 169, 127);
+    
 }
 
 body {
@@ -44,14 +48,37 @@ ul, ol {
 a {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     padding: 8px;
     text-align: center;
 }
 
-span {
-    width: 8rem;
-    margin: 0px auto 20px;
-    background-color: white;
+span{
     display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgb(233, 203, 167);
+    border: 5px dotted black;
+    border-radius: 5px;
+
+}
+.button:hover {
+    background-color: beige;
+    cursor: pointer;
+    border: 5px dotted white;
+}
+
+#Odin {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+.odin1 {
+    margin: auto;
 }
