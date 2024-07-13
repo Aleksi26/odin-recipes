@@ -49,8 +49,9 @@ a {
     text-align: center;
 }
 
-div {
+span {
+    width: 8rem;
+    margin: 0px auto 20px;
     background-color: white;
-    margin-bottom: 20px;
     display: block;
 }
