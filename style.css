@@ -12,9 +12,12 @@ body {
 }
 
 
-a, p, li {
+p, li {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+    padding: 8px;
+    margin-left: 20px;
+    text-align: center;
 }
 
 img {
@@ -22,6 +25,9 @@ img {
     height: 360px;
     display: block;
     margin: auto;
+    border: solid white 10px;
+    border-radius: 10px;
+    
 }
 
 #cook {
@@ -29,4 +35,22 @@ img {
     margin-top: auto;
     height: 400px;
     width: 400px;
+}
+
+ul, ol {
+    text-align: center;
+}
+
+a {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+}
+
+div {
+    background-color: white;
+    margin-bottom: 20px;
+    display: block;
 }
